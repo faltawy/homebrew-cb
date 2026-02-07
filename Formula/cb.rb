@@ -2,14 +2,14 @@ class Cb < Formula
   desc "A fast clipboard manager for macOS with history, search, tags, and a TUI"
   homepage "https://github.com/faltawy/cb"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/faltawy/cb/releases/download/v#{version}/cb-v#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "1481216ff4f379115d43fe58559df0bdf5bb5fc92c03c473a6eaf4f731ea3396"
+    sha256 "d86963c1ca5305b00a00c4f90a61b94d647429dd6781f9359aa750c77ea91ecf"
   else
     url "https://github.com/faltawy/cb/releases/download/v#{version}/cb-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "3e62286b390b8d653fa839b5f965a2cbcf7c2cb5148ed1f453f434d1a622f10c"
+    sha256 "49b8f9607b7dc3c4b559842773a7e50519a1d8c2774b5026948059bcdaefcf2a"
   end
 
   def install
