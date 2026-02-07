@@ -6,10 +6,10 @@ class Cb < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/faltawy/cb/releases/download/v#{version}/cb-v#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "PLACEHOLDER_ARM64_SHA256"
+    sha256 "1481216ff4f379115d43fe58559df0bdf5bb5fc92c03c473a6eaf4f731ea3396"
   else
     url "https://github.com/faltawy/cb/releases/download/v#{version}/cb-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "PLACEHOLDER_X86_64_SHA256"
+    sha256 "3e62286b390b8d653fa839b5f965a2cbcf7c2cb5148ed1f453f434d1a622f10c"
   end
 
   def install
